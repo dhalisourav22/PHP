@@ -4,12 +4,15 @@
     //if-else
     if($number == 10){
         echo "The number is Ten";
+        echo PHP_EOL;
     }
     elseif ($number ==12){
         echo "The number is twelve";
+        echo PHP_EOL;     //Used for new line. This is a constant of php.
     }
     else{
         echo "This is a number";
+        echo PHP_EOL;
     }
 
     //alternative if-else
