@@ -43,3 +43,5 @@
         $i++;
     }while($i<=10);
     echo PHP_EOL;
+
+?>
