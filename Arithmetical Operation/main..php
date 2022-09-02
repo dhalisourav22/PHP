@@ -26,6 +26,4 @@
     $num2 += $num1;
     print "\nThe answer is : ".$num2;
 
-
-
 ?>
