@@ -48,3 +48,4 @@
     for ($i = 0; $i<count($students); $i++){
         echo "\n\t\tThe Number ".($i+1)." Item Is : ".$students[$i];
     }
+    print_r($students);
