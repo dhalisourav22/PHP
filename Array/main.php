@@ -50,4 +50,17 @@
     }
     print_r($students);
 
+    //Converting;
+
+    $demoString = "Sourav, Shuvo, Sumon, Supti, Sumi, Juthi, Shihab, Rio, Rashed";
+    $convertedStringIntoArray = explode(", ",$demoString);
+    print_r($convertedStringIntoArray);
+
+    $convertedArrayIntoString = join(", ",$convertedStringIntoArray);
+    echo $convertedArrayIntoString;
+
+    echo "\n\n\nUsing regular expression: \n";
+    $demoString1 = "Sourav, Shuvo, Sumon, Supti,Sumi, Juthi,Shihab,Rio,Rashed";
+    $convertedStringIntoArray1 = preg_split("/, |,/", $demoString1);
+    print_r($convertedStringIntoArray1);
 ?>
