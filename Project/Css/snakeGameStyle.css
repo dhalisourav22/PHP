@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-image: linear-gradient(to right, #696983     , #5f97ec); 
+}
+
+
+.body{
+    /* dont why here this not work the background-image property  */
+
+    /* background-image: linear-gradient(to right, #696983     , #5f97ec); */
+    /* min-height: auto; */
+    /* background-size: 100vw 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* navbar */
+nav{
+    background-color: rgb(49, 46, 71);
+    height: 75px;
+    
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    padding-bottom: 12px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 8px 1px rgb(0, 0, 0);
+    transition: all 0.4s ease-in-out;
+}
+nav:hover{
+    box-shadow: 0px 0px 15px 5px black;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+/* new Means old navbar code*/
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 175px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 60px;
+    font-family: cursive;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: -15px;
+}
+
+.menu{
+    width: 425px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 38px;
+    font-size: 18px;
+    transition: font-size 0.4s ease-in-out;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #d9d7f7;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #29d9d5;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 15px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #d9d7f7;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #d9d7f7;
+    border: 2px solid #d9d7f7;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+    font-weight: bolder;
+    font-size: 17px;
+    background: #29d9d5;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+
+/* making navbar responsive  */
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /*Normal Screen*/
+
+    nav{
+        background-color: rgb(49, 46, 71);
+        height: 160px;
+        font-size: 27px;
+        display: flex;
+        align-items: center;
+        padding: 0px 12px 15px 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+    }   
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 1.6vw; 
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height:40px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    nav{
+        background-color: rgb(49, 46, 71);
+        height: 230px;
+        font-size: 27px;
+        display: flex;
+        align-items: center;
+        padding: 0px 12px 15px 12px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: -60px;
+    }
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .menu{
+        width: 100%;
+    }
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 2vw; 
+    }
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;   
+    }   
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .btn{
+        height:30px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        margin-top: -60px;
+    }
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+    .logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+    ul li {
+        margin-left: 50px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }  
+
+}
+
+@media screen and (max-width: 450px){
+    /*mobile*/
+    nav{
+        margin-top: -60px;
+    }
+    .logo{
+        margin-left: 140px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+    }
+    ul li {
+        margin-left: 42px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }  
+    .search{
+        margin-top: -40px;
+        margin-left: 38px;
+    } 
+
+}
+
+@media screen and (max-width: 395px){
+    nav{
+        margin-top: -65px;
+    }
+    .logo{
+        margin-left: 125px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+    }
+    ul li {
+        margin-left: 35px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }  
+    .search{
+        margin-top: -40px;
+        margin-left: 28px;
+    } 
+
+ 
+}
+
+
+/* welcome text */
+.welcome-text{
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    position: absolute;
+    width: 59vmin;
+    height: 40vmin;
+    top: 35vmin;
+    right: 142vmin;
+}
+
+.welcome-text h1{
+    font-size: 2.5rem;
+}
+
+/* image section  */
+.img{
+    width: 60vmin;
+    height: 65vmin;
+    position: absolute;
+    top: 32vmin;
+    right: 1vh;
+}
+img{
+    padding-top: 5vh;
+    padding-left: 5vh;
+    width: 45vmin;
+    height: 62vmin;
+}
+
+
+
+
+
+/* score card and button set  */
+
+.contain-element{
+    width: 45vmin;
+    height: 40vmin;
+    position: absolute;
+    top: 20vmin;
+    right: 17vmin;
+    /* background: beige; */
+    padding: 20px;
+   
+}
+
+#scoreBox{
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#reset{
+    padding: 10px;
+    margin-top: 5vh;
+    min-width: 20vh;
+    border: 3px solid #29d9d5;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+#reset:hover{
+    background-color: #29d9d5;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+
+/* Gaming area with all element  */
+
+#board{
+    position: absolute;
+    top: 25vmin;
+    background: linear-gradient(rgb(139, 238, 130), rgb(241, 168, 226));
+    width: 70vmin;
+    height: 71vmin;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+    box-shadow: 0 0 17px 2px black;
+}
+
+.head{
+    background: linear-gradient(rgb(201, 73, 73), rgb(148, 148, 114));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: rgb(25, 4, 82);
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(160, 24, 24), rgb(155, 14, 155));
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
