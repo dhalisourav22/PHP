@@ -3,7 +3,7 @@
 <head>
     <title>About - Clever Coder</title>
     
-    <link rel="stylesheet" href="Css/about.css">
+    <link rel="stylesheet" href="Css/AboutStyle.css">
     <!-- preloader css link  -->
     <link rel="stylesheet" href="Css/preloader.css">
 
@@ -15,29 +15,31 @@
 
     <!-- old part -->
     <div class="main" >
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Coder</h2>
-            </div>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Coder</h2>
+                </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="Opening.php">HOME</a></li>
-                    <li><a href="Opening.php #services-container">SERVICES</a></li>
-                    <li><a href="Opening.php #client-section">COURSES</a></li>
-                    <li><a href="Opening.php #contact">CONTACT</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                </ul>
-            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="Opening.php">HOME</a></li>
+                        <li><a href="Opening.php #services-container">SERVICES</a></li>
+                        <li><a href="Opening.php #client-section">COURSES</a></li>
+                        <li><a href="Opening.php #contact">CONTACT</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                    </ul>
+                </div>
 
-            <div class="search">
-                <form action="searchForOpening.php" method = "post">
-                    <input class="srch" type="search" name="searchResult" placeholder="Type To text">
-                    <button  type="submit" class="btn">Search</button>
-                </form>
-            </div>
+                <div class="search">
+                    <form action="searchForOpening.php" method = "post">
+                        <input class="srch" type="search" name="searchResult" placeholder="Type To text">
+                        <button  type="submit" class="btn">Search</button>
+                    </form>
+                </div>
 
-        </div> 
+            </div> 
+        </div>
         <div class="content">
 
 
@@ -63,7 +65,7 @@
                 
             </div>
             <div class="text">
-                <p class="par">Interest in Computer : After completing the 12th, I asked my parents to go to khulna for completing my study, I was suggested to do the MSc in Computer Science. So, I was join in Northern University of Business and Technology. Now i am a final year student. <br><br>
+                <p class="par">Interest in Computer : After completing the 12th, I asked my parents to go to khulna for completing my study, I was suggested to do the BSc in Computer Science. So, I was join in Northern University of Business and Technology. Now i am a final year student. <br><br>
 
                 Sports: If you play sports, you fail sometimes, and it teaches you keep going. In childhood, I was enjoying playing games like I Spy, Lattu (spinning top), Flying kite, Gilli Danda, Badminton etc. Later on I started playing PUBG, GTA etc. I played too many tournaments, and host one tournament also. After the 12th, I left everything, because I was out of home. It was not the metro city, so there was the limited scope and family was not supporting those games. so I became the career-oriented guy. <br><br>
 
@@ -85,7 +87,7 @@
         </div>
     </div>
     <footer>
-        <div class="center">
+        <div class="center foot">
             Copyright &copy;<a href="https://www.youtube.com/c/CleverCoder" target="blank" style="text-decoration: none">www.clevercoder.com.</a> All rights reserved!
         </div>
     </footer>

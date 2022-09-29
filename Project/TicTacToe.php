@@ -30,7 +30,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe - Clever Coder</title>
     <!-- same css and js is use for admin and normal use both also  -->
-    <link rel="stylesheet" href="Css/TicTacToe.css" />    
+    <link rel="stylesheet" href="Css/TicTacToe1.css" />    
         <!-- preloader css link  -->
         <link rel="stylesheet" href="Css/preloader.css">
     <link rel="icon" href="Images/bnr-1.png">

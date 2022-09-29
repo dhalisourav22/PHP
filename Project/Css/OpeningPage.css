@@ -1,0 +1,714 @@
+
+
+/* 
+them colors : 
+    butoon : #29d9d5;
+ */
+
+/* old css */
+*{
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #dbdbdb     , #b8b8b8);
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../Images/Background/OpeningPicBack.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 10vh;
+    box-shadow: 0 0 10px 5px black;
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background: #a5a5a5;
+    padding-bottom: 2vh;
+    box-shadow: 0 0 10px 5px rgb(88, 88, 88);
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;    
+}
+
+.icon{
+    width: 175px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(142, 7, 175);
+    font-size: 60px;
+    font-family: cursive;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: -15px;
+}
+
+.menu{
+    width: 425px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 38px;
+    font-size: 18px;
+    transition: font-size 0.4s ease-in-out;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(142, 7, 175);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 15px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 17px;
+    background: rgb(132, 9, 163);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.content span{
+    color: #41e4e1;
+    font-size: 65px;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: justify;
+    color: white;
+}
+
+
+
+.content .cn{
+    width: 180px;
+    /* height: 40px; */
+    padding: 18px;    
+    background: transparent;
+    border: 3px solid #29d9d5;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+
+.content .cn a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* .text{
+    width : 750px;
+} */
+
+@media screen and (max-width:1200px) {
+    /*Normal Screen*/
+
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    .navbar-container{
+        height: 150px;
+    }
+    ul{
+        margin-left: 30px;
+    }   
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 1.6vw; 
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+    }
+    .btn{
+        height:40px;
+        width: 80px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1, .content span{
+        font-size: 4.5vw; 
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+    .content .cn{
+        width: 18%;
+        height: auto;
+        font-size: 1.8vw;
+        margin-bottom: 4.0vw;
+    }
+    .content a{
+        font-size: 1.6vw
+    }    
+ 
+}
+
+/* @media screen and (max-width:1170px) {
+   
+    .main{
+        padding-left: 20px;
+    }     
+    
+} */
+@media screen and (max-width: 830px){
+    /*For tablet*/
+   
+    .content{
+        margin-top: 120px;
+        width: 80%;   
+        margin-left: 40px;  
+    }
+    .content h1, .content span{
+        font-size: 6vw; 
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: auto;
+        font-size: 2vw;
+        margin-bottom: 3.0vw;
+    }
+    .content a{
+        font-size: 2vw
+    }
+
+    .logo{
+        margin-left: 240px;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 5vw;
+    }
+    .navbar-container{
+        height: 190px;
+    }
+    .menu{
+        width: 100%;
+    }
+
+    ul{
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    ul li{
+        margin-left: 60px;
+    }
+    ul li a{
+       font-size: 2vw; 
+    }
+    .search{
+        margin-top: -20px;
+        margin-left: 60px;   
+    }   
+    .srch{
+        height: 30px;
+        width: 160px;
+        font-size: 12px;
+    }
+    .btn{
+        height:30px;
+        width: 70px;
+    }
+    .main{
+        height: 180vh;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    /*IPAD*/
+    
+    .content{
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    .search{
+        margin-top: -40px;
+        margin-left: 42px;
+    }
+    .logo{
+        margin-left: 180px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+        margin-left: -5px;
+    }
+    ul li {
+        margin-left: 50px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }   
+}
+
+@media screen and (max-width: 450px){
+    /*mobile*/
+    .logo{
+        margin-left: 140px;
+        font-size: 4vw;
+    }
+    ul{
+        margin-top: -25px;
+    }
+    ul li {
+        margin-left: 42px;
+    }
+    ul li a{
+        font-size: 2vw;
+    }  
+    .search{
+        margin-top: -40px;
+        margin-left: 38px;
+    } 
+
+}
+
+
+
+
+
+
+
+/* new css */
+
+
+/* Services Section */
+#services-container{
+    margin-top: 6vh;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    padding-bottom: 34px;    
+    border-radius: 5px;
+    margin: 10px 80px 40px 80px;
+    background-color: rgb(179, 179, 179);
+    box-shadow: 0px 0px 10px 0 #8d8d8d;
+    transition: all 0.4s ease-in-out;
+}
+#services:hover{
+    background-color: rgb(168, 168, 168);
+    box-shadow: 0px 0px 10px 0 #504f4f;
+}
+#services .box h2 a{
+    text-decoration: none;
+    color: #000000;
+}
+#services .box{ 
+    padding: 14px;
+    margin: 2px 55px;
+    border: .5px solid black;
+    border-radius: 9px;
+    background: #e7e7e7;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1px 0px black;
+    transition: all 0.4s ease-in-out;
+}
+#services .box:hover{
+    background: #dfdfdf;
+    box-shadow: 0 0 15px 0px black;
+}
+
+#services .box img{ 
+   height: 160px;
+   width: 250px;
+   margin: auto;
+   margin-top: 5px;
+   display: block;
+   border-radius: 8px;
+}
+#services .box h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 4vh;
+    transition: all 0.4s ease-in-out;
+}
+#services .box h2:hover{
+    font-size: 5vh;
+    /* padding: 2vh; */
+}
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    color: black;
+    text-align: justify;
+    
+
+} 
+
+/* Clients Section */
+#client-box{
+    padding: 34px;
+    padding-bottom: 34px;    
+    border-radius: 5px;
+    margin: 10px 80px 40px 80px;
+    background-color: rgb(179, 179, 179);
+    box-shadow: 0px 0px 10px 0 #8d8d8d;
+    transition: all 0.4s ease-in-out;
+}
+#client-box:hover{
+    background-color: rgb(168, 168, 168);
+    box-shadow: 0px 0px 10px 0 #504f4f;
+}
+
+
+
+
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client-item{
+    padding: 24px 40px;
+}
+
+#clients img{
+    height: 124px;
+}
+
+/* image blur effect */
+
+.blur{
+    filter: blur(1.5px);
+    transition: 0.5s ease-in-out;
+}
+.blur:hover{
+    filter: blur(0px);    
+}
+
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+    padding-bottom: 34px;    
+    border-radius: 5px;
+    margin: 10px 80px 40px 80px;
+    background-color: rgb(179, 179, 179);
+    box-shadow: 0px 0px 10px 0 #8d8d8d;
+    transition: all 0.4s ease-in-out;
+}
+#contact-box:hover{
+    background-color: rgb(168, 168, 168);
+    box-shadow: 0px 0px 10px 0 #504f4f;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.9rem 0.4rem 0.9rem 0.4rem;
+    border: 0.4px solid black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    background: #ececec;
+    font-family: system-ui;
+    color: black;
+    transition: all 0.4s ease-in-out;
+} 
+
+#contact-box input:hover, 
+#contact-box textarea:hover{
+    background: #dfdfdf;
+    box-shadow: 10px 10px 15px -2px #1a1818;
+}
+
+#contact-box form{
+    width: 80%;
+    /* this is first i set at 40% */
+}
+
+#contact-box label{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: 'Bree Serif', serif;
+    padding-top: 10px;
+
+}
+
+/* button Of Contact Section */
+.subBtnn{
+    display: flex;
+    justify-content: center;
+}
+.btnn{
+    width: 315px;
+    height: 60px;    
+    background: transparent;
+    border: 3px solid rgb(142, 7, 175); 
+    margin-top: 35px;
+    margin-left: 17px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.4s ease;
+    font-weight: bolder;
+}
+.btnn:hover{
+    background: rgb(142, 7, 175);
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+/* Footer section  */
+
+footer{
+    background: #a5a5a5;
+    color: white;
+    width: 97%;
+    padding: 19px 20px;
+    font-size: 3.3vh;
+    font-weight: bolder;
+    border-top: 1px solid black;
+    box-shadow: 0 0 5px 0px black;
+}
+footer .foot{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+footer .foot a{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-family: 'Combo';
+    font-size: 3.8rem;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-shadow:1px 5px 5px #313131;
+    letter-spacing: .1em;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center{
+    text-align: center;    
+}
+
+@media screen and (max-width:1260px) {
+    #services{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: none;
+    }
+    footer{
+        width: 96.5%;
+    }
+}
+
+@media screen and (min-width:1460px) {
+    #contact-box{
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+    #client-box{
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+    #services{
+        max-width: 1200px;
+        margin: auto;
+    }
+    footer{
+        width: 97.2%;
+    }
+
+
+}
+
+@media screen and (min-width:1760px) {
+
+    #services .box h2{
+        font-size: 2vh;
+    }
+    #services .box h2:hover{
+        font-size: 2.5vh;
+        /* padding: 2vh; */
+    }
+    footer{
+        width: 98.4%;
+        font-size: 1.8vh;
+    }
+}
+@media screen and (min-width:2780px) {
+
+    #services .box h2{
+        font-size: 1.2vh;
+    }
+    #services .box h2:hover{
+        font-size: 1.5vh;
+        /* padding: 2vh; */
+    }
+}
+@media screen and (min-width:2760px) {
+    footer{
+        width: 100%;
+    }
+
+}

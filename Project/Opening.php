@@ -3,7 +3,7 @@
 <head>
     <title>Welcome - Clever Coder</title>
 
-    <link rel="stylesheet" href="Css/OpeningStyles.css">
+    <link rel="stylesheet" href="Css/OpeningPage.css">
 
     <!-- preloader css link  -->
     <link rel="stylesheet" href="Css/preloader.css">
@@ -17,29 +17,32 @@
 
     <!-- old part -->
     <div class="main" >
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Coder</h2>
-            </div>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Coder</h2>
+                </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="Opening.php">HOME</a></li>
-                    <li><a href="#services-container">SERVICES</a></li>
-                    <li><a href="#client-section">COURSES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="OpeningAboutNotLogin.php">ABOUT</a></li>
-                </ul>
-            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="Opening.php">HOME</a></li>
+                        <li><a href="#services-container">SERVICES</a></li>
+                        <li><a href="#client-section">COURSES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="OpeningAboutNotLogin.php">ABOUT</a></li>
+                    </ul>
+                </div>
 
-            <div class="search">
-                <form action="searchForOpening.php" method = "post">
-                    <input class="srch" type="search" name="searchResult" placeholder="Type To text">
-                    <button  type="submit" class="btn">Search</button>
-                </form>
-            </div>
+                <div class="search">
+                    <form action="searchForOpening.php" method = "post">
+                        <input class="srch" type="search" name="searchResult" placeholder="Type To text">
+                        <button  type="submit" class="btn">Search</button>
+                    </form>
+                </div>
 
-        </div> 
+            </div> 
+        </div>
+        
         <div class="content">
 
             <div class="text">
@@ -56,6 +59,7 @@
     <!-- Services  -->
     <section id="services-container">
         <h1 class="h-primary center">Our Services</h1>
+        
         <div id="services">            
             <div class="box">
                 <img src="Images/GamesPic/snake.jpg" alt="">
@@ -80,57 +84,58 @@
     <!-- Courses  -->
     <section id="client-section">
         <h1 class="h-primary center">Our Courses</h1>
-        <!-- First row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/python.png" alt="Our Client"></a>
+        <div id="client-box">
+            <!-- First row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/python.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/code.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/programming.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/ts.png" alt="Our Client"></a>
+                </div>
             </div>
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/code.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/programming.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/ts.png" alt="Our Client"></a>
-            </div>
-        </div>
 
-        <!-- Second Row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/java.png" alt="Our Client"></a>
+            <!-- Second Row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/java.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/visual-basic.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/graphicsDesign.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/nodejs.png" alt="Our Client"></a>
+                </div>            
             </div>
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/visual-basic.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/graphicsDesign.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/nodejs.png" alt="Our Client"></a>
-            </div>            
-        </div>
 
-        <!-- Third Row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/js.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item" >
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/coding.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/programming-language.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/php.png" alt="Our Client"></a>
-            </div>
+            <!-- Third Row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/js.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item" >
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/coding.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/programming-language.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="IndexMeansSingInFromServices.php"><img class="blur" src="Images/CoursesIcons/php.png" alt="Our Client"></a>
+                </div>
+            </div>`
         </div>
-        
     </section>
 
     <!-- Contact us -->
@@ -164,7 +169,7 @@
     <!-- Footer -->
 
     <footer>
-        <div class="center">
+        <div class="center foot">
             Copyright &copy;<a href="https://www.youtube.com/c/CleverCoder" target="blank" style="text-decoration: none">www.clevercoder.com.</a> All rights reserved!
         </div>
     </footer>

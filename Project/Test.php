@@ -20,7 +20,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Css/TestStyle.css" />
+    <link rel="stylesheet" href="Css/quizResultStyle.css" />
 
     <!-- preloader css link  -->
     <link rel="stylesheet" href="Css/preloader.css">

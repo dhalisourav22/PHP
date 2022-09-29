@@ -20,7 +20,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="Css/InsideStyle.css" />
+    <link rel="stylesheet" href="Css/quizQuestionStyle.css" />
     <!-- preloader css link  -->
     <link rel="stylesheet" href="Css/preloader.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

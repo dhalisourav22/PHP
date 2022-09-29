@@ -130,7 +130,7 @@
         <!-- showing score  -->
         <div class="contain-element">
             <div id="scoreBox">Score: 0</div>
-            <div id="hiscoreBox">HiScore: 0</div>
+            <div id="hiscoreBox">High Score: 0</div>
             <!-- <div id="reset-div">
                 <button type="Submit" id="reset">Reset</button>
             </div> -->
@@ -146,7 +146,7 @@
 
 
     <!-- snake game js call  -->
-    <script src="snakeScript.js"></script>
+    <script src="snakeScriptByme.js"></script>
     <!-- preloader  -->
     <script src="JS/preloader.js"></script>  
 </body>

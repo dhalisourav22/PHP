@@ -25,7 +25,8 @@
 <html lang="en">
 <head>
     <title>Welcome - Clever Coder</title>
-    <link rel="stylesheet" href="Css/AfterLogin.css">
+    <!-- this css is also used for opening page for admin  -->
+    <link rel="stylesheet" href="Css/OpeningAfterLoginStyle.css">
      <!-- preloader css link  -->
      <link rel="stylesheet" href="Css/preloader.css">
     <link rel="icon" href="Images/bnr-1.png">
@@ -36,29 +37,31 @@
     <div id="preloader"></div>
     <!-- old part -->
     <div class="main" >
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Coder</h2>
-            </div>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Coder</h2>
+                </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="AfterLogin.php">HOME</a></li>
-                    <li><a href="#services-container">SERVICES</a></li>
-                    <li><a href="#client-section">COURSES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                    <li><a href="about.php">ABOUT</a></li>
-                </ul>
-            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="AfterLogin.php">HOME</a></li>
+                        <li><a href="#services-container">SERVICES</a></li>
+                        <li><a href="#client-section">COURSES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="about.php">ABOUT</a></li>
+                    </ul>
+                </div>
 
-            <div class="search">
-                <form action="searchForOpeningAfterLogin.php" method = "post">
-                    <input class="srch" type="search" name="searchResult" placeholder="Type To text">
-                    <button  type="submit" class="btn">Search</button>
-                </form>
-            </div>
+                <div class="search">
+                    <form action="searchForOpeningAfterLogin.php" method = "post">
+                        <input class="srch" type="search" name="searchResult" placeholder="Type To text">
+                        <button  type="submit" class="btn">Search</button>
+                    </form>
+                </div>
 
-        </div> 
+            </div> 
+        </div>
         <div class="content">
 
             <div class="text">
@@ -96,57 +99,58 @@
 
     <section id="client-section">
         <h1 class="h-primary center">Our Courses</h1>
-        <!-- First row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=lCXPiZ55S9Y&list=PLGxL7j9XYpSytZBWsiMq8tg-_V3s5AXSs" target="blank"><img class="blur" src="Images/CoursesIcons/python.png" alt="Our Client"></a>
+        <div id="client-box">
+            <!-- First row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=lCXPiZ55S9Y&list=PLGxL7j9XYpSytZBWsiMq8tg-_V3s5AXSs" target="blank"><img class="blur" src="Images/CoursesIcons/python.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=7I0lLZIoTII&list=PLGxL7j9XYpSwHM3ZL0CKv5QlveaZJGIqs" target="blank"><img class="blur" src="Images/CoursesIcons/code.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/programming.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/ts.png" alt="Our Client"></a>
+                </div>
             </div>
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=7I0lLZIoTII&list=PLGxL7j9XYpSwHM3ZL0CKv5QlveaZJGIqs" target="blank"><img class="blur" src="Images/CoursesIcons/code.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/programming.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/ts.png" alt="Our Client"></a>
-            </div>
-        </div>
 
-        <!-- Second Row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=Tan7ZJ884Lo&list=PLGxL7j9XYpSzObPpR4xiuiCBryOyL1NL8" target="blank"><img class="blur" src="Images/CoursesIcons/java.png" alt="Our Client"></a>
+            <!-- Second Row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=Tan7ZJ884Lo&list=PLGxL7j9XYpSzObPpR4xiuiCBryOyL1NL8" target="blank"><img class="blur" src="Images/CoursesIcons/java.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=7I0lLZIoTII" target="blank"><img class="blur" src="Images/CoursesIcons/visual-basic.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/graphicsDesign.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/nodejs.png" alt="Our Client"></a>
+                </div>            
             </div>
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=7I0lLZIoTII" target="blank"><img class="blur" src="Images/CoursesIcons/visual-basic.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/graphicsDesign.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/nodejs.png" alt="Our Client"></a>
-            </div>            
-        </div>
 
-        <!-- Third Row  -->
-        <div id="clients">
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=fj2oawGmAK0&list=PLGxL7j9XYpSwoQVjjPMRiGV0fV75_ee_E" target="blank"><img class="blur" src="Images/CoursesIcons/js.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item" >
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/coding.png" alt="Our Client"></a>
-            </div>
-          
-            <div class="client-item">
-                <a href="https://www.youtube.com/watch?v=7I0lLZIoTII&list=PLGxL7j9XYpSwHM3ZL0CKv5QlveaZJGIqs" target="blank"><img class="blur" src="Images/CoursesIcons/programming-language.png" alt="Our Client"></a>
-            </div>
-            <div class="client-item">
-                <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/php.png" alt="Our Client"></a>
+            <!-- Third Row  -->
+            <div id="clients">
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=fj2oawGmAK0&list=PLGxL7j9XYpSwoQVjjPMRiGV0fV75_ee_E" target="blank"><img class="blur" src="Images/CoursesIcons/js.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item" >
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/coding.png" alt="Our Client"></a>
+                </div>
+            
+                <div class="client-item">
+                    <a href="https://www.youtube.com/watch?v=7I0lLZIoTII&list=PLGxL7j9XYpSwHM3ZL0CKv5QlveaZJGIqs" target="blank"><img class="blur" src="Images/CoursesIcons/programming-language.png" alt="Our Client"></a>
+                </div>
+                <div class="client-item">
+                    <a href="https://www.youtube.com/c/CleverCoder/videos" target="blank"><img class="blur" src="Images/CoursesIcons/php.png" alt="Our Client"></a>
+                </div>
             </div>
         </div>
-        
     </section>
 
     <section id="contact">
@@ -177,7 +181,7 @@
     </section>
 
     <footer>
-        <div class="center">
+        <div class="center foot">
             Copyright &copy;<a href="https://www.youtube.com/c/CleverCoder" target="blank" style="text-decoration: none">www.clevercoder.com.</a> All rights reserved!
         </div>
     </footer>

@@ -3,7 +3,7 @@
 <head>
     <title>Sign In - Clever Coder</title>
     <!-- if we change this file css that will be occar in IndexmeansSingInFromServices.php file as well. Both file use this comon Style.css file -->
-    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/LoginPageStyle.css">
         <!-- preloader css link  -->
         <link rel="stylesheet" href="Css/preloader.css">
     <link rel="icon" href="Images/bnr-1.png">
@@ -14,29 +14,31 @@
     <div id="preloader"></div>
 
     <div class="main" >
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">Coder</h2>
-            </div>
+        <div class="navbar-container">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo">Coder</h2>
+                </div>
 
-            <div class="menu">
-                <ul>
-                    <li><a href="Opening.php">HOME</a></li>
-                    <li><a href="Opening.php #services-container">SERVICES</a></li>
-                    <li><a href="Opening.php #client-section">COURSES</a></li>
-                    <li><a href="Opening.php #contact">CONTACT</a></li>
-                    <li><a href="OpeningAboutNotLogin.php">ABOUT</a></li>
-                </ul>
-            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="Opening.php">HOME</a></li>
+                        <li><a href="Opening.php #services-container">SERVICES</a></li>
+                        <li><a href="Opening.php #client-section">COURSES</a></li>
+                        <li><a href="Opening.php #contact">CONTACT</a></li>
+                        <li><a href="OpeningAboutNotLogin.php">ABOUT</a></li>
+                    </ul>
+                </div>
 
-            <div class="search">
-                <form action="searchForOpening.php" method = "post">
-                    <input class="srch" type="search" name="searchResult" placeholder="Type To text">
-                    <button  type="submit" class="btn">Search</button>
-                </form>
-            </div>
+                <div class="search">
+                    <form action="searchForOpening.php" method = "post">
+                        <input class="srch" type="search" name="searchResult" placeholder="Type To text">
+                        <button  type="submit" class="btn">Search</button>
+                    </form>
+                </div>
 
-        </div> 
+            </div> 
+        </div>
         <div class="content">
 
             <div class="text">
@@ -61,6 +63,11 @@
 
         </div>
     </div>
+    <footer>
+        <div class="center foot">
+            Copyright &copy;<a href="https://www.youtube.com/c/CleverCoder" target="blank" style="text-decoration: none">www.clevercoder.com.</a> All rights reserved!
+        </div>
+    </footer>
 
         <!-- preloader  -->
         <script src="JS/preloader.js"></script>  
